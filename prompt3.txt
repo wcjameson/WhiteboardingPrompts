@@ -10,3 +10,8 @@ split
 iterate
 increment + compressed element
 return
+
+function compressString(string) {
+  arr = string.split(");
+  let var = arr.map(item => item === item)
+}

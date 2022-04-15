@@ -9,3 +9,32 @@ Output: false
 Input: "copyright"
 
 Output: true
+
+
+
+for loop
+nested for loop{
+if str.charAt(i) === str.charAt(x) {
+  return false
+}
+return true
+
+}
+
+
+
+
+inputArr = [stuff]
+
+let arr = [];
+
+inputArr.forEach((element) => {
+  if(arr.includes(element)) {
+    arr.push(element);
+  }
+  return arr;
+})
+
+string.forEach((element) => {
+
+})

@@ -9,8 +9,10 @@ Output: [7, 9, "hi", 12, 53]
 function removeDupe(arr) {
     for (let i = 0 i < arr.length; i ++)
       for ( let x = 1; x < arr.length; x ++)
-        if (arr[i] === arr[x])
+        if (arr[i] === arr[x]) {
           arr.splice(arr.indexOf(arr[i]))
+        }
+        return arr
 }
 
 
@@ -33,7 +35,8 @@ inputArr = [stuff]
 let arr = [];
 
 inputArr.forEach((element) => {
-  if(arr.includes(element)) {
+  if(!arr.includes(element)) {
     arr.push(element);
   }
+  return arr;
 })
