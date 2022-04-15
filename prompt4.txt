@@ -18,7 +18,6 @@ if str.charAt(i) === str.charAt(x) {
   return false
 }
 return true
-
 }
 
 
