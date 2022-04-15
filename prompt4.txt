@@ -11,6 +11,7 @@ Input: "copyright"
 Output: true
 
 
+// indexOf?
 
 for loop
 nested for loop{
@@ -20,7 +21,7 @@ if str.charAt(i) === str.charAt(x) {
 return true
 }
 
-
+//if(string.lastIndexOf(string[i]) !== i)
 
 
 inputArr = [stuff]

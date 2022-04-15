@@ -13,7 +13,19 @@ Output: "Jasmine%20Ann%20Jones"
 
 function replace(string) {
   arr = string.split("");
-    for (let i = 0; i < arr.length; i++)
+    for (let i = 0; i < arr.length; i++){
       if (arr[i].includes(" "))
         arr[i] = %20;
+    }
+}
+
+const replace = (input) => {
+return input.split(" ").join("%20);
+}
+
+//recursive
+
+const replace = (input, value, replaceVal) => {
+  let a = input.split("");
+  let b = a.indexOf(" ")
 }
