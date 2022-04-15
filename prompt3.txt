@@ -5,3 +5,8 @@ Example
 Input: "aaabccdddda"
 
 Output: "3ab2c4da"
+
+split
+iterate
+increment + compressed element
+return
